@@ -6,7 +6,7 @@ from pymodbus.constants import Endian
 
 # Modbus RTU port and id of the Fronius Smart Meter 63A-3
 if len(sys.argv) == 1:
-    mb_port = '/dev/ttyUSB1'
+    mb_port = '/dev/ttyUSB0'
     mb_id = 3
     start_address = 4096
     number_of_addresses = 80
